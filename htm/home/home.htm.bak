@@ -1,0 +1,156 @@
+<html><head>
+   	<script src="http://127.0.0.1:9876/test/test.nocache.js"></script>
+    <script src="http://127.0.0.1:9876/recompile-requester/test"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>test</title>
+    
+    <style>
+        :focus {
+            outline: none;
+        }
+    </style>
+		<!--<script src="http://127.0.0.1:9876/recompile/test?user.agent=safari&amp;_callback=__gwt_sdm_globals.callbacks.c1541125218683"></script>-->
+		<link rel="stylesheet" href="http://127.0.0.1:9876/test/css/animation.min.css">
+		<link rel="stylesheet" href="http://127.0.0.1:9876/test/css/material-icons.min.css">
+		<link rel="stylesheet" href="http://127.0.0.1:9876/test/css/materialize.blue.min.css">
+		<!--<link rel="stylesheet" href="http://127.0.0.1:9876/test/css/overridecss.blue.min.css">-->
+		<!--<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+			body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+			audio,canvas,progress,video{display:inline-block;vertical-align:baseline}[hidden],template{display:none}
+			a{background:transparent}a:active,a:hover,button:active,button:hover{outline:0}abbr[title]{border-bottom:1px dotted}
+			b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-0.5em}sub{bottom:-0.25em}img{border:0}figure{margin:1em40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible;text-transform:none}select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner{border:0;padding:0}input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button{height:auto}input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}table.table tbody tr.subheader,th span{-webkit-touch-callout:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none}table.table .cell,table.table .widget-cell{-o-text-overflow:ellipsis}table.table .cell,table.table .widget-cell,th span{text-overflow:ellipsis;white-space:nowrap}*{margin:0;padding:0}body,html{height:100%;padding:0}table{font-family:Roboto,sans-serif}section.table-container ::-webkit-scrollbar{-webkit-overflow-scrolling:auto;-webkit-appearance:none;width:8px}section.table-container ::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.3);-webkit-box-shadow:0 0 1px rgba(255,255,255,.5)}th{text-transform:uppercase;padding:12px 5px 4px 20px}th span{display:inline-block;overflow:hidden;max-width:100px;-webkit-user-select:none;user-select:none}tr{text-align:left}.selection-none table.table tbody tr.data-row,.selection-none table.table tbody tr.data-row td.hover,.selection-none table.table tbody tr.data-row.selected td,.selection-none table.table tbody tr.data-row:hover{background:0 0}thead{border-bottom:1px solid #E3E3E3!important;font-size:12px;color:rgba(0,0,0,.54);z-index:500}thead tr{height:56px;background-color:#fff}tbody{font-size:13px;color:rgba(0,0,0,.87)}.overflow-hidden{overflow:hidden!important}tbody [type=checkbox]+label:before{border-radius:0!important}tbody [type=checkbox]+label{top:2px}tbody [type=checkbox].filled-in+label{top:6px}table.table th#col0.selection.frozen-col,tbody .frozen-col,thead .frozen-col div{display:flex;align-items:center}.frozen-col{left:0;top:auto;position:absolute}.max-height{height:100%!important}.inner-shadow{-moz-box-shadow:inset 18px 0 20px -20px #aaa;-webkit-box-shadow:inset 18px 0 20px -20px #aaa;box-shadow:inset 18px 0 20px -20px #aaa}.inner-scroll{overflow-x:hidden;overflow-y:visible}.x-scroll{overflow-x:scroll;height:15px;width:100%;overflow-y:hidden}.table-container{height:100%;width:100%;background-color:#fff}.table-container.stretch{width:100%!important;height:100%!important;max-height:100%!important}.table-container .progress{height:3px;top:-.6rem;margin:0 0 -3px;z-index:9001}table.table .cell{overflow:hidden}table.table tbody td{border-radius:0;padding:0 5px 0 20px}table.table td#col0.selection{width:45px}table.table tbody tr.data-row #col0.frozen-col:not([data-title]){padding-top:0!important;padding-left:20px!important}table.table tbody tr.data-row #col0.frozen-col:not([data-title]) label{top:0}table.table #colex{text-align:center}table.table #colex i{width:100%}table.table tbody tr.subheader{cursor:pointer;background-color:#fff;width:100%;height:46px;left:0;right:0;z-index:2;position:absolute;border-bottom:1px solid #E3E3E3;-webkit-user-select:none;user-select:none;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}table.table thead tr th,tr.disabled *{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-khtml-user-select:none}table.table tbody tr.subheader.expanded{-webkit-box-shadow:0 10px 9px -12px rgba(0,0,0,.9);-moz-box-shadow:0 10px 9px -12px rgba(0,0,0,.9);box-shadow:0 10px 9px -12px rgba(0,0,0,.9)}table.table .table-header{width:100%;display:inline-block}table.table thead th.selected{color:#000}table.table tbody tr.subheader.fixed{position:fixed}table.table tbody tr.subheader td{padding:10px 5px!important}table.table tbody tr.subheader span{position:relative;top:2px}table.table tbody tr.subheader td,table.table tbody tr.subheader th{white-space:nowrap;padding-top:8px!important;padding-bottom:8px!important}table.table tbody tr.subheader td:first-child,table.table tbody tr.subheader th:first-child{padding-left:18px!important}table.table tbody tr.selected,table.table tbody tr.selected td{background-color:#F5F5F5}table.table .mask{position:absolute;width:100%;height:100%;top:0;opacity:.2;background-color:#000;z-index:9002}.table-body,.title,.top-panel{position:relative}div.tool-panel ul.dropdown-content li{padding-left:8px}div.tool-panel ul.dropdown-content li label{height:50px;width:100%;padding-top:12px}div.tool-panel ul.dropdown-content li label:after,div.tool-panel ul.dropdown-content li label:before{top:11px}div.tool-panel ul.dropdown-content li input.filled-in+label:after,div.tool-panel ul.dropdown-content li input.filled-in+label:before{top:14px}section.table-container div.tool-panel ul.dropdown-content{max-height:350px!important;overflow-y:auto;overflow-x:hidden}section.table-container div.tool-panel ul.dropdown-content li>span{padding:3px 5px}.top-panel{width:100%;height:64px;display:inline-block;background-color:#9E9E9E;border-bottom:3px solid #D3D3D3;padding:19px 12px 3px 16px;color:#fff;z-index:5}.tool-panel i{margin-left:5px}.info-panel{float:left}.tool-panel{float:right}.title{top:-6px;margin-left:10px;font-size:16px}.table-body{width:100%;height:100vh;overflow-y:auto;overflow-x:hidden}.table-body:focus{outline:0}.table-footer{width:100%}.table-footer span.footer-left{float:left;text-align:left;width:33.333%}.table-footer span.footer-center{display:inline-block;text-align:center;margin:0 auto;width:33.333%}.table-footer span.footer-right{float:right;text-align:right;width:33.333%}tr.disabled *{opacity:.7;background:#e9e9e9;cursor:not-allowed;user-select:none}tr.disabled:hover{color:rgba(0,0,0,.87);cursor:not-allowed;background-color:transparent!important}tr .numeric{text-align:right}table.table thead tr th{background-color:#fff;user-select:none;padding-left:20px}table.table thead tr th.sortable,tr.data-row{cursor:pointer}table.table tbody tr.data-row{border-bottom:1px solid #E6E6E6;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}table.table tbody tr.data-row td.hover,table.table tbody tr.data-row:hover{background:#EEE;color:#000}table.table thead tr th.sortable:hover{color:rgba(0,0,0,.87)}table.table tbody tr.expansion td{padding:0!important}table.table tbody tr.expansion td div.expanded{max-height:600px;overflow:hidden;border-bottom:1px solid #E6E6E6}table.table tbody tr.expansion td div.expanded section.overlay{position:absolute;background:#fff;opacity:.5;font-size:28px;width:100%}table.table tbody tr.expansion td div.expanded section.overlay i{position:relative;left:50%;top:calc(40% - 19px)}table.table tbody tr.expansion td>div{display:block;width:100%;max-height:0;line-height:150%;overflow-y:hidden;-webkit-transition:all .25s cubic-bezier(.35,0,.35,1);-moz-transition:all .25s cubic-bezier(.35,0,.35,1);-o-transition:all .25s cubic-bezier(.35,0,.35,1);-ms-transition:all .25s cubic-bezier(.35,0,.35,1);transition:all .25s cubic-bezier(.35,0,.35,1)}table.table tbody tr.expansion td div .content{width:100%;height:100%;display:block;float:left;overflow:auto;background:#f5f5f5}table.table tbody tr.expansion td div h3.expanded_header{margin:0 0 15px;padding:0;font-size:16px;font-weight:400;color:#000;text-shadow:0 1px 0 #fff}table.table tbody tr.expansion td div h4.expanded_header{margin:0;padding:8px;font-size:14px;font-weight:400;color:#000;text-shadow:0 1px 0 #fff;background:#f5f5f5}table.table tbody tr.expansion td>div p{margin:4px 0!important;padding:0!important}@media only screen and (max-width:520px),(min-device-width:0px) and (max-device-width:519px){table.table tbody,table.table td:not(tr.expansion),table.table thead,table.table tr{display:inline-block}table.table{display:block!important}.top-panel{height:64px;padding-top:20px;padding-bottom:20px}.top-panel i{margin-top:-4px!important}table.table thead{display:none}table.table tbody tr.subheader.fixed{margin-top:-2px}tr.data-row td:before{content:attr(data-title);color:#000;padding-right:8px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}table.table .cell{color:#00082}table.table tbody td>div,tr.data-row td:before{width:50%;display:inline-block;vertical-align:middle}table.table .numeric{text-align:left!important}table.table tbody tr.data-row td:first-child:before{padding-right:6px!important}table.table tbody tr.data-row td:first-child label{top:6px}table.table tbody{display:table;width:100%;background:#e9e9e9}.table-body{background:#fff;height:440px;top:-6px}.selection-none table.table tbody tr.data-row,table.table tbody tr.data-row{display:table;width:94%!important;margin:12px auto!important;box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);background:#fff;position:relative}table.table tbody tr.data-row.disabled{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important}table.table tbody tr.data-row.disabled td{border:1px solid #d7d7d7}table.table tbody tr.data-row.selected{position:relative;background:#fff!important}table.table tbody tr.expansion td{width:94%!important;padding-top:0!important;margin:-12px auto auto}table.table tbody tr.expansion td div.expanded{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}tbody tr td#colex:before{display:none}tbody tr td#colex #expand{cursor:pointer;width:100px!important;background:#e9e9e9;border-radius:20px}table.table tbody tr.data-row #col0:not([data-title]){width:40px!important;height:40px!important;background:#e9e9e9;border-radius:100%;position:absolute;z-index:1;right:6px;left:initial!important;top:2px;box-shadow:none!important;padding-left:0!important;padding-top:0!important}table.table tbody tr.data-row #col0:not([data-title]) label{padding:0!important;margin-left:-4px;margin-top:3px}table.table tbody tr.data-row:hover,table.table tbody tr.selected td,table.table tbody tr.selected td.hover{background:#fff}table.table tbody td{padding:12px!important;line-height:150%!important;border-top:1px solid #e9e9e9;position:relative;width:100%!important;display:block!important;left:0!important;height:auto!important;border-bottom:none!important}table.table tbody tr.data-row #col0.frozen-col:not([data-title]){padding-left:0!important}table.table tbody tr.subheader th{min-width:initial!important;max-width:initial!important}table.table tbody tr td .widget-cell .input-field{margin:0}.inner-scroll{margin-left:0!important}.x-scroll{display:none}}.table-container .data-pager{width:100%;position:relative;color:#9e9e9e!important;font-size:.8em;border-top:1px solid #e9e9e9;margin-bottom:0;padding:4px 4px 8px}.data-pager .num-page-panel .input-field input[type=number]{width:50px;text-align:center;border-bottom:none;font-size:1em;margin-bottom:0;height:2em;margin-top:6px}.data-pager .num-page-panel>span{padding-top:12px;margin-right:8px;display:inline-block}.data-pager .action-page-panel i,.data-pager .action-page-panel>span,.data-pager .rows-per-page-panel>span{float:right;margin-right:8px;margin-top:12px}.data-pager .action-page-panel i{margin-top:4px}.data-pager .action-page-panel i.disabled{background:#fff!important;color:#e9e9e9!important}.data-pager .action-page-panel,.data-pager .num-page-panel,.data-pager .rows-per-page-panel{float:right}.data-pager .rows-per-page-panel{width:200px;margin-right:40px}.data-pager .select-wrapper{float:right;width:44px;max-width:64px;margin-left:32px}.data-pager .select-dropdown{border:none;margin-bottom:0;font-size:1em}.data-pager .input-field.listbox-wrapper{margin-top:0}.data-pager .num-page-panel .input-field{display:inline;text-align:right;margin-top:13px;margin-bottom:-13px}.data-pager .input-field .select-wrapper .caret:before{right:4px;bottom:6px}.data-pager .input-field .select-wrapper input.select-dropdown{height:1.6em;line-height:1.6em;margin-top:12px;margin-bottom:0;font-size:1em}@media only screen and (max-width:520px),(min-device-width:0px) and (max-device-width:519px){.table-container .data-pager{margin-top:-6px;border-top:1px solid #e9e9e9;text-align:center}.table-container .data-pager .action-page-panel{margin-top:0!important}.table-container .data-pager .action-page-panel .arrow-prev{float:left}.table-container .data-pager .action-page-panel span{display:inline-block;float:none}}</style><style>ul.side-nav .side-profile span{line-height:1!important}ul.side-nav .side-profile a{display:block;padding-left:0;height:initial}ul.side-nav .side-profile i{line-height:1.5}.side-nav .side-profile .dropProfile i{position:absolute;right:20px}ul.side-nav .side-profile{padding:16px}ul.side-nav .side-profile a.dropdown-button{cursor:pointer!important;padding:0!important;line-height:3;height:32px!important;font-size:.8em}ul.side-nav .side-profile .dropdown-content a{padding:0 15px;height:inherit;line-height:64px}ul.side-nav .side-profile img{width:60px;height:60px;margin-bottom:0;border-radius:100%;-webkit-border-radius:100%;-moz-border-radius:100%}.window,.window-overlay{position:fixed;top:0;right:0;left:0}.window{display:none;z-index:1001;padding:0;width:50%;margin:auto;overflow:hidden;will-change:top,opacity;box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);border-radius:4px;transition:150ms all;-moz-transition:150ms all;-webkit-transition:150ms all}.window-overlay{height:100%;width:100%;background:rgba(0,0,0,.3);bottom:0;z-index:1000}.window .window-toolbar{background-color:#2196f3;color:#fff;overflow:hidden;padding:8px}.window .window-title{color:#fff;font-size:1.1em;float:left}.window .window-action{font-size:16px;float:right;margin-left:12px}.window.maximize{width:100%!important;top:0!important;left:0!important;right:0!important;bottom:0!important;max-height:100%!important;transform:translate(0 ,0)!important;-webkit-transform:translate(0 ,0)!important;-moz-transform:translate(0 ,0)!important;-webkit-transition:width .4s ease-in-out,height .4s ease-in-out;-moz-transition:width .4s ease-in-out,height .4s ease-in-out;-o-transition:width .4s ease-in-out,height .4s ease-in-out;transition:width .4s ease-in-out,height .4s ease-in-out;height:100vh!important}.window.open{display:block!important;opacity:1!important}.window .content{background-color:#fafafa;height:calc(100% - 40px);overflow:auto}@media only screen and (max-width:992px){.window .content{width:100%!important}}</style>-->
+</head>
+<body style="cursor: default;">
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+        <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+            Your web browser must have JavaScript enabled
+            in order for this application to display correctly.
+        </div>
+    </noscript>
+
+    <!-- Will add a custom splashscreen for your GMD app -->
+    <script type="text/javascript" src="splash/splash.js"></script>
+    <link rel="stylesheet" type="text/css" href="splash/splash.css">
+		<iframe id="test" tabindex="-1" style="position: absolute; width: 0px; height: 0px; border: none; left: -1000px; top: -1000px;"></iframe>
+		<div class="hiddendiv common"></div>
+		<div aria-hidden="true" style="position: absolute; z-index: -32767; top: -20cm; width: 10cm; height: 10cm; visibility: hidden;">&nbsp;</div>
+		<div><header style="width: calc(100% - 280px); position: fixed; z-index: 997; top: 0px; transition: all 400ms cubic-bezier(0, 0, 0.2, 1) 0ms; margin-left: 280px;"><nav class="indigo"><div class="nav-wrapper">
+			<a data-activates="sidenav" class="button-collapse circle waves-effect waves-light center-align show-on-medium-and-down show-on-large" style="cursor: pointer; font-size: 2.7em; width: 64px; visibility: visible;">
+				<i class="material-icons" style="cursor: pointer;">menu</i></a><a class="brand-logo" style="font-size: 1.2em;">
+				<div>主页</div>
+			</a>
+
+			<ul class="hide-on-med-and-down right">
+				<li><a href="" data-delay="350" data-position="bottom" data-tooltip-id="9821e881-d34e-b256-52a3-60de8ecd2a4d" data-tooltip="主页" style="cursor: pointer;">
+					<i class="material-icons" style="cursor: pointer;">home</i></a></li>
+				<li><a data-delay="350" data-position="bottom" data-tooltip-id="29780b13-27ad-b34a-f1cc-dc1268a70a69" data-tooltip="Search" style="cursor: pointer;">
+					<i class="material-icons" style="cursor: pointer;">search</i></a></li>
+			</ul>
+		</div>
+		</nav>
+		<nav class="white" aria-hidden="true" style="display: none;">
+			<div class="nav-wrapper">
+				<a class="button-collapse circle waves-effect waves-light center-align" style="cursor: pointer; font-size: 2.7em; width: 64px; visibility: hidden;">
+					<i class="material-icons" style="cursor: pointer;">menu</i></a>
+				<div class="black-text input-field">
+					<input type="search" class="gwt-TextBox" placeholder="Search..." id="gwt-uid-2">
+					<label for="search">
+						<i class="black-text material-icons" style="cursor: pointer;">search</i></label>
+					<i class="black-text material-icons" style="cursor: pointer;">close</i>
+					<div class="search-result z-depth-1"></div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<ul class="side-nav push" id="sidenav" style="width: 280px; left: 0px;">
+		<div style="background-image: url(&quot;http://static1.squarespace.com/static/51609147e4b0715db61d32b6/521b97cee4b05f031fd12dde/5519e33de4b06a1002802805/1431718693701/?format=1500w&quot;); background-size: cover; display: block;" class="side-profile">
+			<img src="http://b.vimeocdn.com/ps/339/488/3394886_300.jpg" class="responsive-img">
+			<span class="white-text material-label">GWT Material</span>
+			<a class="white-text dropProfile dropdown-button" data-activates="dropProfile" style="cursor: pointer;">
+				<i class="right material-icons" style="cursor: pointer;">arrow_drop_down</i>
+				<span>gwt-material@gmail.com</span>
+			</a>
+		</div>
+		<li style="display: block;">
+			<a href="#home" style="cursor: pointer;">
+				<i class="left material-icons" style="cursor: pointer;">home</i>
+				<span>Home</span></a></li>
+		<li style="display: block;">
+			<a href="#user" style="cursor: pointer;">
+				<i class="left material-icons" style="cursor: pointer;">whatshot</i>
+				<span>User</span>
+			</a>
+		</li>
+		<li style="display: block;">
+			<a href="#role" style="cursor: pointer;">
+				<i class="left material-icons" style="cursor: pointer;">whatshot</i>
+				<span>Role</span></a></li>
+		<li style="display: block;">
+			<a href="#equip" style="cursor: pointer;">
+				<i class="left material-icons" style="cursor: pointer;">whatshot</i>
+				<span>Equip</span></a></li>
+		<li style="display: block;">
+			<a href="#net" style="cursor: pointer;">
+				<i class="left material-icons" style="cursor: pointer;">whatshot</i>
+				<span>Net</span></a></li>
+		<li style="display: block;">
+			<a href="#proxy" style="cursor: pointer;">
+				<i class="left material-icons" style="cursor: pointer;">whatshot</i>
+				<span>Proxy</span>
+			</a>
+		</li>
+	</ul>
+	<main style="font-size: 0.8em; padding-top: 440px; transition: all 400ms cubic-bezier(0, 0, 0.2, 1) 0ms; margin-left: 280px;"></main>
+	<div class="window" style="top: 100px;">
+		<div class="window-toolbar white">
+			<a class="window-title" style="cursor: pointer;">
+				<span>sign in</span></a>
+			<i class="window-action circle waves-effect waves-default material-icons" style="cursor: pointer;">close</i>
+			<i class="window-action circle waves-effect waves-default material-icons" style="cursor: pointer;">check_box_outline_blank</i>
+		</div>
+		<div class="content">
+			<div class="center-align" style="padding: 32px; height: 300px;">
+				<div class="input-field">
+					<input type="text" class="gwt-TextBox" id="gwt-uid-3">
+					<label for="gwt-uid-3">Email</label>
+					<span aria-hidden="true" class="material-label" style="display: none;"></span>
+				</div>
+				<div class="input-field">
+					<input type="password" class="gwt-TextBox" id="gwt-uid-4">
+					<label for="gwt-uid-4">password</label>
+					<span aria-hidden="true" class="material-label" style="display: none;"></span>
+				</div>
+				<span class="gwt-CheckBox" style="display: block;">
+					<input type="checkbox" value="on" id="gwt-uid-1" tabindex="0">
+					<label for="gwt-uid-1">Remember Me</label>
+				</span>
+				<button type="button" class="btn waves-effect waves-default white black-text" style="cursor: pointer;">
+					<span>Sign in</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="fixed-action-btn">
+		<button type="button" class="pink btn-large btn-floating" style="cursor: pointer;">
+			<i class="left material-icons" style="cursor: pointer;">add</i>
+		</button>
+		<button type="button" class="red btn-large btn-floating" style="cursor: pointer;">
+			<i class="left material-icons" style="cursor: pointer;">person</i>
+		</button>
+	</div>
+</div>
+<div class="material-tooltip" id="9821e881-d34e-b256-52a3-60de8ecd2a4d">
+	<span></span>
+	<div class="backdrop" style="top: 0px; left: 0px;"></div>
+</div>
+<div class="material-tooltip" id="29780b13-27ad-b34a-f1cc-dc1268a70a69">
+	<span></span>
+	<div class="backdrop" style="top: 0px; left: 0px;"></div>
+</div>
+<div class="drag-target" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 997; width: 50%; right: 0px;"></div>
+<div id="sidenav-overlay" style="opacity: 1;" class=""></div>
+</body></html>
